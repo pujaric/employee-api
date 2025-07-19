@@ -51,3 +51,15 @@ Step-by-Step: Dynamic Guice → Spring Bean Bridge
 1. Define a Spring-aware Guice Provider (SpringBeanProvider) ✅ 
 2. Modify AppModule to use dynamic provider ✅ 
 3. Update GuiceConfig to pass ApplicationContext ✅ 
+
+Bean Creation Flow Summary
+
+```
+Spring Boot starts 
+	➝ MyBatis mappers registered by @Mapper 
+		➝ GuiceModule reads Spring context 
+			➝ Guice binds beans 
+				➝ Service layer managed by Guice 
+					➝ Guice-created services bridged back to Spring 
+						➝ Controllers get injected services via Spring
+```

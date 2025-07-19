@@ -2,6 +2,7 @@ package com.example.employee.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,21 +15,26 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.employee.dao.EmployeeMapper;
 import com.example.employee.model.Employee;
 import com.example.employee.service.EmployeeService;
-import com.google.inject.Inject;
 
 @RestController
 @RequestMapping("/employees")
 public class EmployeeController {
 
-	private final EmployeeService service;
-	
-	private final EmployeeMapper mapper;
+//	private final EmployeeService service;
 
-	@Inject // Guice will inject this
-	public EmployeeController(EmployeeService service, EmployeeMapper mapper) {
-		this.service = service;
-		this.mapper = mapper;
-	}
+//	private final EmployeeMapper mapper;
+
+//	@Inject // Guice will inject this
+//	public EmployeeController(EmployeeService service, EmployeeMapper mapper) {
+//		this.service = service;
+//		this.mapper = mapper;
+//	}
+	
+	@Autowired
+	private EmployeeService service;
+	
+	@Autowired
+	private EmployeeMapper mapper;
 
 	@GetMapping
 	public List<Employee> getAll() {
