@@ -1,6 +1,29 @@
 # employee-api
 A simple Employee API with GET, POST, PUT, DELETE using Guice + Spring Boot 3 + MyBatis + H2
 
+```
+   ┌──────────────┐
+   │ Spring Boot  │
+   └────┬─────────┘
+        │
+        ▼
+Spring Scans Components
+        │
+        ├── @MapperScan → registers EmployeeMapper
+        ├── Loads GuiceConfig
+        │        │
+        │        ├── receives EmployeeMapper bean
+        │        └── creates Guice Injector with AppModule
+        │                  │
+        │                  ├── binds EmployeeMapper to instance
+        │                  └── binds EmployeeService to Impl
+        ▼
+ employeeService bean exposed via @Bean
+        │
+        ▼
+Injected into Spring Controller
+```
+
 # H2 console access
 
 ```

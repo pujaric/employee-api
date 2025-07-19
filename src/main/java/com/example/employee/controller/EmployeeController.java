@@ -22,18 +22,13 @@ public class EmployeeController {
 
 	private final EmployeeService service;
 	
-	@Inject // Guice will inject this
-    public EmployeeController(EmployeeService employeeService) {
-        this.service = employeeService;
-    }
+	private final EmployeeMapper mapper;
 
-//	private final EmployeeMapper mapper;
-//
-//	@Inject
-//	public EmployeeController(EmployeeService service, EmployeeMapper mapper) {
-//		this.service = service;
-//		this.mapper = mapper;
-//	}
+	@Inject // Guice will inject this
+	public EmployeeController(EmployeeService service, EmployeeMapper mapper) {
+		this.service = service;
+		this.mapper = mapper;
+	}
 
 	@GetMapping
 	public List<Employee> getAll() {
