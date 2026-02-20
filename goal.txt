@@ -1,43 +1,48 @@
-1️⃣ Code Quality and Standards
+✅ Revised Goals for 12 Years Java Experience
+1️⃣ Code Quality and Engineering Standards (Senior Ownership)
 
-Follow clean code principles and maintain readable, modular, and maintainable code.
+Define and enforce coding standards across the team.
 
-Ensure adherence to organization coding standards and best practices.
+Drive reduction of technical debt and improve Sonar quality gate compliance to 0 critical issues.
 
-Reduce SonarQube code smells, vulnerabilities, and technical debt.
+Review and approve critical code changes and architectural decisions.
 
-Increase unit test coverage and maintain minimum agreed coverage percentage.
+Improve application performance, scalability, and security.
 
-Perform effective peer code reviews and incorporate feedback proactively.
+Introduce best practices (design patterns, clean architecture, modularization).
 
-Ensure proper logging, exception handling, and performance optimization.
+Ensure minimum 80–90% unit test coverage for critical modules.
 
-2️⃣ Developer Excellence (Manifesto Alignment)
+Lead root cause analysis for production issues and implement preventive measures.
 
-Demonstrate ownership and accountability for assigned deliverables.
+2️⃣ Developer Excellence (Manifesto Alignment – Leadership Level)
 
-Continuously improve technical skills through learning and certifications.
+Act as technical mentor for junior and mid-level developers.
 
-Actively participate in design discussions and provide constructive inputs.
+Take end-to-end ownership of features from design to production.
 
-Support team collaboration and knowledge sharing.
+Drive design discussions and provide scalable, future-ready solutions.
 
-Follow Agile principles and contribute to sprint planning and retrospectives.
+Promote automation (CI/CD improvements, test automation, build optimization).
 
-Focus on delivering business value with quality and efficiency.
+Lead knowledge sharing sessions within the team.
 
-Promote innovation and suggest automation or process improvements.
+Align development activities with business objectives and delivery timelines.
 
-3️⃣ Jira and SDLC Compliance
+Encourage innovation and continuous improvement culture.
 
-Ensure accurate and timely updates of Jira tickets (status, comments, effort).
+3️⃣ Jira and SDLC Compliance (Process Champion)
 
-Maintain proper documentation for requirements, design, and implementation.
+Ensure 100% accurate estimation and sprint commitment reliability.
 
-Follow SDLC processes strictly (design review, code review, testing, release).
+Enforce Definition of Ready and Definition of Done.
 
-Ensure all deliverables meet Definition of Done criteria.
+Improve sprint predictability and reduce spillovers.
 
-Maintain traceability between requirements, development, and testing.
+Maintain high-quality documentation (design docs, API contracts).
 
-Participate in release planning and ensure deployment readiness.
+Ensure proper change management and release governance compliance.
+
+Support audit readiness and compliance requirements.
+
+Identify SDLC process gaps and propose improvements.
