@@ -1,0 +1,43 @@
+1️⃣ Code Quality and Standards
+
+Follow clean code principles and maintain readable, modular, and maintainable code.
+
+Ensure adherence to organization coding standards and best practices.
+
+Reduce SonarQube code smells, vulnerabilities, and technical debt.
+
+Increase unit test coverage and maintain minimum agreed coverage percentage.
+
+Perform effective peer code reviews and incorporate feedback proactively.
+
+Ensure proper logging, exception handling, and performance optimization.
+
+2️⃣ Developer Excellence (Manifesto Alignment)
+
+Demonstrate ownership and accountability for assigned deliverables.
+
+Continuously improve technical skills through learning and certifications.
+
+Actively participate in design discussions and provide constructive inputs.
+
+Support team collaboration and knowledge sharing.
+
+Follow Agile principles and contribute to sprint planning and retrospectives.
+
+Focus on delivering business value with quality and efficiency.
+
+Promote innovation and suggest automation or process improvements.
+
+3️⃣ Jira and SDLC Compliance
+
+Ensure accurate and timely updates of Jira tickets (status, comments, effort).
+
+Maintain proper documentation for requirements, design, and implementation.
+
+Follow SDLC processes strictly (design review, code review, testing, release).
+
+Ensure all deliverables meet Definition of Done criteria.
+
+Maintain traceability between requirements, development, and testing.
+
+Participate in release planning and ensure deployment readiness.
